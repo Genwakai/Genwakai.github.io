@@ -2,6 +2,10 @@
 date: 2025-08-13
 ---
 
+# 演奏会のご案内
+
+<!-- more -->
+
 <style>
 .concert-title {
     /* font-family: Gabriola; */
@@ -9,10 +13,6 @@ date: 2025-08-13
     margin: 1em 0;
 }
 </style>
-
-# 演奏会のご案内
-
-<!-- more -->
 
 下記の通り、弦和会の演奏会を開催いたします。
 ぜひご来場ください。
