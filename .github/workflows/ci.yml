@@ -15,16 +15,7 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-     
-      - name: Install uv
-        uses: astral-sh/setup-uv@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version-file: "pyproject.toml"
-
-      - name: Cache dependencies
+      
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
       - uses: actions/cache@v4
         with:
@@ -33,10 +24,18 @@ jobs:
           restore-keys: |
             mkdocs-material-
       
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: "pyproject.toml"
+      
       - name: Install the project
         run: uv sync --all-extras --dev
-
-      - name: Run tests
+      
+      - name: Run MkDocs Deploy
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: uv run mkdocs gh-deploy --force
