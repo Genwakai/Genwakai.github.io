@@ -1,0 +1,18 @@
+[project]
+name = "genwakai-github-io"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs-material>=9.6.16",
+    "recent-posts-plugin",
+]
+
+[tool.uv.workspace]
+members = [
+    "plugins",
+]
+
+[tool.uv.sources]
+recent-posts-plugin = { workspace = true }

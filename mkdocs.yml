@@ -1,0 +1,54 @@
+
+site_name: 弦和会
+site_url: https://genwakai.github.io
+copyright: Copyright &copy; 2025 弦和会
+
+nav:
+  - ホーム: index.md
+  - お知らせ: news/index.md
+
+theme:
+  name: material
+  language: ja_custom
+  logo: assets/mandolin.png
+  favicon: assets/mandolin.png
+  palette:
+    primary: custom
+  custom_dir: overrides
+  features:
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.expand
+    - navigation.sections
+    # - toc.integrate
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search
+  - blog:
+      blog_dir: news
+      blog_toc: true
+      post_url_date_format: "yyyy"
+      post_url_format: "{file}"
+      archive: false
+      post_excerpt: required
+      post_readtime: false
+  
+  - recent_posts:
+      blogs:
+        - news
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - toc:
+      toc_depth: 0
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+

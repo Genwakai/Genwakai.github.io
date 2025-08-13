@@ -1,0 +1,6 @@
+[project]
+name = "recent-posts-plugin"
+version = "0.1"
+
+[project.entry-points."mkdocs.plugins"]
+"recent_posts" = "recent_posts.plugin:RecentPostsPlugin"
