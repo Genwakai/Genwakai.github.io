@@ -21,7 +21,7 @@ RECENT_POSTS(news,3)
 
 ## お問い合わせ
 
-[genwakai-mandolin@gmail.com](mailto:genwakai-mandolin@gmail.com)
+[genwakai.mandolin@gmail.com](mailto:genwakai.mandolin@gmail.com)
 までご連絡ください。
 
 </br>

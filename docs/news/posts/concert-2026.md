@@ -93,6 +93,6 @@ date: 2025-08-13
 ## お問い合わせ
 
 チケットのお求めやご質問などは、弦和会のメールアドレス
-[genwakai-mandolin@gmail.com](mailto:genwakai-mandolin@gmail.com)
+[genwakai.mandolin@gmail.com](mailto:genwakai.mandolin@gmail.com)
 までご連絡ください。
 
