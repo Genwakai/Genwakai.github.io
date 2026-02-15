@@ -24,3 +24,10 @@ RECENT_POSTS(news,3)
 [genwakai-mandolin@gmail.com](mailto:genwakai-mandolin@gmail.com)
 までご連絡ください。
 
+</br>
+
+<a href="https://x.com/genwakai1977" target="_blank">
+<img src="/assets/x-logo.svg" alt="X logo" width="40" height="40" style="background-color: black; padding: 0.2em; vertical-align: bottom; margin-right: 0em;">
+<span style="color: white; background-color: black; padding: 0.2em;">@genwakai1977</span>
+</a>
+
