@@ -51,7 +51,7 @@ class RecentPostsPlugin(mkdocs.plugins.BasePlugin[RecentPostsConfig]):
             mdlist = ""
             for post in recent_posts:
                 mdlist += self._md_list_item(post["file"], page.url)+"\n"
-            mdcontent = '<div class="grid cards recent_posts" markdown>\n'+mdlist+'</div>'
+            mdcontent = '<div class="cards recent_posts" markdown>\n'+mdlist+'</div>'
             markdown = markdown.replace(m.group(), mdcontent)
         return markdown
 

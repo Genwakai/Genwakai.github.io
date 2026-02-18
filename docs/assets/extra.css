@@ -25,6 +25,11 @@
 
 .recent_posts li {
     padding: 0.4em !important;
+    margin-left: 0 !important;
+    list-style: none;
+    border: #CCC 0.1em solid;
+    border-radius: 0.5em;
+    max-width: 30em;
 }
 .recent_posts_date {
     color: #666;
