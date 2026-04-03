@@ -96,3 +96,7 @@ date: 2025-08-13
 [genwakai.mandolin@gmail.com](mailto:genwakai.mandolin@gmail.com)
 までご連絡ください。
 
+## チラシ挟み込み受付（4月3日追記）
+
+演奏会当日にチラシ挟み込みを実施いたします。
+詳しくは[こちらのページ](concert-2026-inserted-leaflet.md)をご覧ください。

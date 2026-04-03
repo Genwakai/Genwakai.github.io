@@ -37,3 +37,25 @@
 .recent_posts a {
     font-size: larger;
 }
+
+/* リンクカード */
+.link-card {
+    display: block;
+    padding: 0.5em;
+    border: #CCC 0.1em solid;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.link-card:hover {
+    box-shadow: none;
+}
+
+/* 1行を超えるとき「...」で省略 */
+.overflow-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
