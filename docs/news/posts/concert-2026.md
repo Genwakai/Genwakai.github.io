@@ -96,7 +96,9 @@ date: 2025-08-13
 [genwakai.mandolin@gmail.com](mailto:genwakai.mandolin@gmail.com)
 までご連絡ください。
 
+<span style="color: red; font-weight: bold;">
 ※チケットのご予約終了のお知らせ（5月11日追記）
+</span>
 
 チケットのお申し込みが増えてきたため、ホームページからの受付は一旦停止しております。
 当日は当日券をご用意する予定ですが、数に限りがございますのでご了承ください。

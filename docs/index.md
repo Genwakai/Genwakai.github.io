@@ -15,14 +15,7 @@ hide:
 
 ## お知らせ
 
-<div class="cards recent_posts" markdown>
-
-- <span class="recent_posts_date">2026年05月11日</span><br><a href="/news/concert-2026/">演奏会のご案内（チケット受付終了）</a>
-- <span class="recent_posts_date">2026年05月08日</span><br><a href="/news/concert-2026-inserted-leaflet/">チラシ挟み込み受付（終了しました）</a>
-- <span class="recent_posts_date">2024年06月01日</span><br><a href="/news/x-account/"> Xアカウントを開設しました。</a>
-
-</div>
-
+RECENT_POSTS(news, 3)
 
 [もっと見る](news/index.md)
 
