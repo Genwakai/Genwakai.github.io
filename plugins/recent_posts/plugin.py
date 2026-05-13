@@ -69,7 +69,7 @@ class RecentPostsPlugin(mkdocs.plugins.BasePlugin[RecentPostsConfig]):
             if not m or m.groups().__len__() != 1:
                 raise RuntimeError("ポストのタイトルが不適切です。\n`# タイトル`の形で記入してください。")
             title = m.groups()[0]
-        print(file.src_uri)
+        # print(file.src_uri)
         link = "./"+file.src_uri.replace(url,"")
         # print(link)
         return f'-   <span class="recent_posts_date">{datestr} {"📌" if pinned else ""}</span>  \n    [{title}]({link})'
