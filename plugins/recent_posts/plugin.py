@@ -79,7 +79,7 @@ class RecentPostsPlugin(mkdocs.plugins.BasePlugin[RecentPostsConfig]):
             ("news/posts/concert-2026.md", "演奏会のご案内（チケット受付終了）"),
         ]
         pin_list = [
-            ("news/posts/concert-2026.md"),
+            # ("news/posts/concert-2026.md"),
         ]
         for post in posts:
             for title_ow in title_ow_list:
